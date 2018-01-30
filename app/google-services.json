@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "736086528274",
+    "firebase_url": "https://chatapplication-486db.firebaseio.com",
+    "project_id": "chatapplication-486db",
+    "storage_bucket": "chatapplication-486db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736086528274:android:6efd265dc95e0ce8",
+        "android_client_info": {
+          "package_name": "com.chahatgoel.chat_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736086528274-saa3rdhre6q6p851irg291neo7670oo8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chahatgoel.chat_application",
+            "certificate_hash": "018a7db01b6d8e5beeca33feea7f611189ad6aa2"
+          }
+        },
+        {
+          "client_id": "736086528274-274a0s0q6553ivdsn9k7hfkeedg9220k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANrc5Ybvqy_RtHHfORvvqDWMbskPRtH0M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736086528274-274a0s0q6553ivdsn9k7hfkeedg9220k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
