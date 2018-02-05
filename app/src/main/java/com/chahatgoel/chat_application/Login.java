@@ -53,11 +53,11 @@ public class Login extends AppCompatActivity {
 
 
                 } else {
-                    String url = "https://chatapp-a06a0.firebaseio.com/users.json";
+                    String url = "https://chatapplication-486db.firebaseio.com/Users.json";
                     final ProgressDialog pd = new ProgressDialog(Login.this);
                     pd.setMessage("Loading...");
                     pd.show();
-                    StringRequest request = new StringRequest(DownloadManager.Request.Method.GET, url, new Response.Listener<String>() {
+                    StringRequest request = new StringRequest(com.android.volley.Request.Method.GET, url, new com.android.volley.Response.Listener<String() {
                         @Override
                         public void onResponse(String s) {
                             if (s.equals("null")) {
@@ -82,7 +82,7 @@ public class Login extends AppCompatActivity {
 
                             pd.dismiss();
                         }
-                    }, new Response.ErrorListener() {
+                    }, new com.android.volley.Response.ErrorListener() {
                         @Override
                         public void onErrorResponse(VolleyError volleyError) {
                             System.out.println("" + volleyError);

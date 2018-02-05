@@ -41,12 +41,13 @@ public class Users extends AppCompatActivity {
         pd.setMessage("Loading...");
         pd.show();
         String url ="https://chatapp-a06a0.firebaseio.com/users.json";
-        StringRequest request = new StringRequest(DownloadManager.Request.Method.GET, url, new Response.Listener<String>(){
+
+        StringRequest request = new StringRequest(com.android.volley.Request.Method.GET, url, new com.android.volley.Response.Listener<String>(){
             @Override
             public void onResponse(String s) {
                 doOnSuccess(s);
             }
-        },new Response.ErrorListener(){
+        },new com.android.volley.Response.ErrorListener(){
             @Override
             public void onErrorResponse(VolleyError volleyError) {
                 System.out.println("" + volleyError);
