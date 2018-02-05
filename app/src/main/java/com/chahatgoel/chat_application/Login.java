@@ -57,7 +57,7 @@ public class Login extends AppCompatActivity {
                     final ProgressDialog pd = new ProgressDialog(Login.this);
                     pd.setMessage("Loading...");
                     pd.show();
-                    StringRequest request = new StringRequest(com.android.volley.Request.Method.GET, url, new com.android.volley.Response.Listener<String() {
+                    StringRequest request = new StringRequest(com.android.volley.Request.Method.GET, url, new com.android.volley.Response.Listener<String>() {
                         @Override
                         public void onResponse(String s) {
                             if (s.equals("null")) {
